@@ -1,0 +1,26 @@
+{
+  "name": "apollo-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lmarzy/apollo-server.git",
+  "author": "lmarzy <me@phz3.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --respawn ./src",
+    "prod": "tsc"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.5.1",
+    "apollo-server": "^2.6.9",
+    "graphql": "^14.4.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.2",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  }
+}
